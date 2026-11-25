@@ -1,0 +1,14 @@
+{
+  "name": "kids-trip-server",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "kids-trip 全新后端：UGC 投票飞轮 + 评论 AI 评价（零依赖 Node）",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

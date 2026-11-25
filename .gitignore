@@ -1,0 +1,24 @@
+# 敏感配置（切勿提交）
+.env
+.env.*
+!.env.production.example
+*.key
+*.pem
+
+# 运行时数据与备份（生产 UGC 不入库）
+data/db.json
+data/*.bak*
+data/_test_db.json*
+data/_verify_db.json*
+data/avatars/
+data/uploads/
+
+# 本机私有配置与系统文件
+project.private.config.json
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+
+# 日志
+*.log
